@@ -1,0 +1,37 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.input {
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+}
+
+.input::placeholder {
+  font-size: 15px;
+}
+
+.btn {
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 25px;
+  border: none;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  transition: background-color 250ms linear, color 250ms linear;
+}
+
+.btn:hover {
+  background-color: #fafafa;
+  color: black;
+}

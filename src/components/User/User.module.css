@@ -1,0 +1,28 @@
+.userMenu {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.btn {
+  padding: 10px 15px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 25px;
+  border: none;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+  transition: background-color 250ms linear, color 250ms linear;
+}
+
+.btn:hover {
+  background-color: #fafafa;
+  color: black;
+}
